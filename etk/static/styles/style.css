@@ -1,0 +1,560 @@
+@charset "UTF-8";
+body {
+  background: #fff;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: "Lato";
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+body .jumbotron {
+  margin-bottom: 0 !important;
+}
+body .mt-20 {
+  margin-top: 20px;
+}
+body .breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #fff;
+}
+body .breadcrumb li {
+  display: inline;
+  margin-right: 10px;
+  font-size: 18px;
+}
+body .breadcrumb li:before {
+  padding: 8px;
+  color: black;
+  content: "/ ";
+}
+body .breadcrumb li a {
+  color: #968c00;
+  text-decoration: none;
+}
+body .breadcrumb li a:hover {
+  color: #666666;
+}
+body .page-top {
+  background-image: url(../img/solar-module.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding: 0;
+  opacity: 0.9;
+}
+body .page-top .page-heading {
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 2px 2px 1px black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 5px;
+  margin-top: 3rem;
+}
+body .content {
+  font-size: 20px;
+  margin: 40px 0;
+}
+body .upper-row {
+  background: #efefef;
+  padding: 60px 200px;
+  margin: 80px 0;
+}
+body .upper-row img {
+  border-radius: 10px;
+}
+body .bottom-row {
+  margin-bottom: 40px;
+}
+body .bottom-row img {
+  height: 300px;
+  width: 300px;
+}
+
+.container-fluid {
+  background: #efefef;
+  padding: 40px 0;
+}
+.container-fluid .footer-container {
+  margin: 0 10rem;
+}
+.container-fluid .logo-footer {
+  font-size: 40px;
+}
+.container-fluid span {
+  margin: auto;
+}
+.container-fluid img {
+  width: 250px;
+  height: 250px;
+  margin-top: -20px;
+}
+.container-fluid .social-footer {
+  margin-top: 22px;
+  text-align: right;
+}
+.container-fluid .social-footer p {
+  margin-bottom: 0.6rem !important;
+}
+.container-fluid .social-footer i {
+  padding-right: 18px;
+  font-size: 32px;
+  color: #3b5998;
+}
+.container-fluid .social-footer i:hover {
+  color: #4c72c5;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-container {
+    margin: 0 6rem !important;
+  }
+}
+@media screen and (max-width: 980px) {
+  .footer-container {
+    margin: 0 3rem !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .logo-footer img {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-container {
+    margin: 0 1rem !important;
+  }
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+body .carousel-inner {
+  margin-top: 100px;
+}
+body .carousel-inner img {
+  max-height: 500px;
+}
+body .carousel-inner .carousel-caption {
+  top: 20%;
+  left: 10%;
+  text-align: left;
+}
+body .carousel-inner .carousel-caption h3 {
+  background: rgba(150, 140, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 38px;
+  font-family: "Roboto", sans-serif;
+}
+body .container {
+  margin-top: 50px;
+  max-width: 75% !important;
+}
+body .container .img-row img {
+  height: 500px;
+  width: 500px;
+}
+body .container .main-heading {
+  font-size: 38px;
+  font-weight: bold;
+}
+body .container .main-content {
+  margin: 40px 0;
+  font-size: 20px;
+}
+body .container .map-heading {
+  font-weight: bold;
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: right;
+}
+body .container .map-content {
+  padding: 0 30px;
+  margin-top: 120px;
+  text-align: center;
+}
+body .more {
+  padding: 0;
+  margin-top: 4rem;
+}
+body .more .more-info {
+  background-image: url(../img/solar-module.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  padding: 3rem 0;
+}
+body .more .more-info h2, body .more .more-info h3 {
+  color: #fff;
+  font-weight: bold;
+}
+body .more .more-info h2 {
+  font-size: 70px;
+}
+body .more .more-info h3 {
+  font-size: 52px;
+}
+body .more .more-info .btn {
+  margin-top: 20px;
+  padding: 14px;
+  font-size: 20px;
+  font-weight: bold;
+}
+body .eko-bar {
+  padding: 0;
+  margin-bottom: 2rem;
+}
+body .eko-bar .eko-content {
+  text-align: right;
+}
+body .eko-bar .btn:not(:disabled):not(.disabled) {
+  font-size: 20px;
+  margin-top: 10px;
+}
+body .eko-bar .sun-img img {
+  width: 100%;
+  height: 550px;
+  border-radius: 300px;
+}
+
+@media screen and (max-width: 1500px) {
+  .map-content {
+    padding-left: 60px !important;
+    margin-top: 80px !important;
+  }
+
+  .eko-bar h1 {
+    font-size: 36px !important;
+  }
+  .eko-bar h2 {
+    font-size: 28px !important;
+  }
+  .eko-bar .sun-img img {
+    height: 450px !important;
+  }
+
+  .img-row {
+    display: flex;
+    align-items: center;
+  }
+  .img-row img {
+    height: 400px !important;
+    width: 400px !important;
+  }
+
+  .main-content {
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .map-content {
+    padding-left: 20px !important;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body .carousel-inner img {
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .map-heading {
+    margin-left: 0 !important;
+  }
+
+  .carousel-caption h3 {
+    font-size: 28px !important;
+  }
+
+  .more .more-info h2 {
+    font-size: 56px !important;
+  }
+
+  .more .more-info h3 {
+    font-size: 38px !important;
+  }
+
+  body .more {
+    margin-top: 1rem;
+  }
+
+  .eko-content {
+    margin: 2rem 0;
+    text-align: center !important;
+  }
+
+  .sun-img img {
+    height: 400px !important;
+    width: 80% !important;
+  }
+
+  .map-heading {
+    margin: 20px 0 20px 0 !important;
+    text-align: center !important;
+  }
+
+  .map-content {
+    margin-top: 30px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .carousel-caption h3 {
+    font-size: 20px !important;
+  }
+
+  .main-heading {
+    font-size: 30px !important;
+  }
+
+  .main-content {
+    font-size: 16px !important;
+  }
+
+  body .container {
+    max-width: 85% !important;
+  }
+
+  .more .more-info {
+    height: 300px !important;
+  }
+
+  .more .more-info h2 {
+    font-size: 40px !important;
+  }
+
+  .more .more-info h3 {
+    font-size: 22px !important;
+  }
+
+  .btn {
+    padding: 10px !important;
+    font-size: 18px !important;
+  }
+
+  .sun-img img {
+    height: 300px !important;
+    width: 90% !important;
+  }
+
+  body .carousel-inner img {
+    height: 300px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .carousel-caption {
+    left: 14% !important;
+    text-align: left;
+  }
+  .carousel-caption .carousel-caption h3 {
+    font-size: 18px !important;
+  }
+
+  .more .more-info {
+    height: 250px !important;
+    padding: 2.6rem 0 !important;
+  }
+
+  body .container {
+    max-width: 95% !important;
+  }
+
+  .img-row img {
+    height: 300px !important;
+    width: 300px !important;
+  }
+
+  .more .more-info h2 {
+    font-size: 26px !important;
+  }
+
+  .more .more-info h3 {
+    font-size: 18px !important;
+  }
+
+  .eko-bar .eko-content {
+    margin: 1rem 0;
+  }
+  .eko-bar h1 {
+    font-size: 26px !important;
+  }
+  .eko-bar h2 {
+    font-size: 18px !important;
+  }
+  .eko-bar .btn:not(:disabled):not(.disabled) {
+    font-size: 14px !important;
+  }
+  .eko-bar .sun-img img {
+    height: 300px !important;
+  }
+
+  .map-content {
+    margin: 1rem 0 !important;
+  }
+}
+.navbar {
+  background: #fff !important;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100px;
+}
+.navbar .navbar-brand {
+  margin-left: 1.6rem;
+}
+.navbar .navbar-brand img {
+  max-height: 90px;
+  width: 90px;
+}
+.navbar .navbar-brand:hover {
+  opacity: 0.7;
+  transition: 0.2s ease;
+}
+.navbar .social {
+  margin-right: 1.6rem;
+}
+.navbar .social a {
+  font-size: 32px;
+  color: #3b5998;
+}
+.navbar .social a:hover {
+  color: #4c72c5;
+}
+.navbar .navbar-nav {
+  margin: auto;
+}
+.navbar .navbar-nav a {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  color: #000 !important;
+  padding: 1rem 2rem !important;
+  font-weight: bold;
+  font-size: 20px;
+  height: 100px;
+}
+.navbar .navbar-nav a:hover {
+  background: #968c00;
+  color: #fff !important;
+  transition: 0.2s ease;
+}
+
+.sticky {
+  background: #363636 !important;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  transition: 0.4s ease;
+  height: 80px;
+}
+.sticky .navbar-nav {
+  margin: auto;
+}
+.sticky .navbar-nav a {
+  background: #363636;
+  transition: 0.4s ease;
+  color: #fff !important;
+  height: 80px;
+  font-size: 18px;
+}
+.sticky .navbar-nav a:hover {
+  background: #fff;
+  color: #968c00 !important;
+  transition: 0.2s ease;
+}
+.sticky .social a {
+  color: #fff;
+}
+.sticky .social a:hover {
+  color: #d1d1d1 !important;
+}
+.sticky .navbar-brand img {
+  max-height: 75px !important;
+  width: 75px !important;
+}
+.sticky .navbar-toggler {
+  background-color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .social {
+    display: none !important;
+  }
+
+  .navbar-toggler {
+    margin: 0 3rem;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
+
+  .sticky {
+    height: 90px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    margin-left: 1rem !important;
+  }
+}
+.offer-include h1 {
+  font-size: 48px !important;
+}
+
+.offer-content {
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+.offer-content:hover {
+  box-shadow: 2px 2px 50px grey;
+  transition: 0.6s ease;
+}
+.offer-content:hover .offer-heading {
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.1s ease;
+}
+.offer-content:hover .offer-image img {
+  box-shadow: 2px 2px 50px grey;
+  transition: 0.6s ease;
+}
+.offer-content .offer-heading {
+  margin: auto;
+  padding: 0 4rem;
+}
+.offer-content .offer-icon {
+  font-size: 40px;
+  margin: auto;
+  padding-right: 20px;
+}
+.offer-content .offer-icon i {
+  color: #968c00;
+}
+.offer-content .offer-image img {
+  width: 100%;
+  max-height: 240px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

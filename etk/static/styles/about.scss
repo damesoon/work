@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lato', sans-serif;
+    .jumbotron {
+        margin-bottom: 0 !important;
+    }
+    .mt-20 {
+        margin-top: 20px;
+    }
+    .breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #fff;;
+        li {
+            display: inline;
+            margin-right: 10px;
+            font-size: 18px;
+            &:before {
+                padding: 8px;
+                color: black;
+                content: "/\00a0";
+            }
+            a {
+                color: $etk-green;
+                text-decoration: none;
+                &:hover {
+                    color: #666666;
+                }
+            }
+        }
+    }
+    .page-top {
+        background-image: url(../img/solar-module.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        padding: 0;
+        opacity: .9;
+        .page-heading {
+            font-size: 60px;
+            color: #fff;
+            text-shadow: 2px 2px 1px black;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: 5px;
+            margin-top: 3rem;
+        }
+    }
+
+    .content {
+        font-size: 20px;
+        margin: 40px 0;
+    }
+    .upper-row {
+        background: #efefef;
+        padding: 60px 200px;
+        margin: 80px 0;
+        img {
+            border-radius: 10px;
+        }
+    }
+    .bottom-row {
+        margin-bottom: 40px;
+        img {
+            height: 300px;
+            width: 300px;
+        }
+    }
+}
