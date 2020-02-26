@@ -8,6 +8,10 @@ body {
     margin-bottom: 50px;
 }
 
+.mt-40 {
+    margin-top: 40px;
+}
+
 .p-0 {
     padding: 0;
 }
@@ -21,3 +25,5 @@ h1, h2 {
 @import 'index.scss';
 @import 'navbar.scss';
 @import 'offer.scss';
+@import 'dotation.scss';
+@import 'contact.scss';

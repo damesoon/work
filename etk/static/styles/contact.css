@@ -1,0 +1,35 @@
+.mapouter {
+  margin: 3rem auto !important;
+}
+
+.contact-upper p {
+  margin: 1.6rem 0;
+}
+
+.contact-icons {
+  margin: 2rem 0;
+}
+.contact-icons span {
+  display: inline-flex;
+}
+.contact-icons i {
+  margin-right: 20px;
+}
+.contact-icons h5 {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.contact-icons p {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.map-heading {
+  padding-top: 2rem;
+}
+.map-heading h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=contact.css.map */

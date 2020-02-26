@@ -7,6 +7,10 @@ body {
   margin-bottom: 50px;
 }
 
+.mt-40 {
+  margin-top: 40px;
+}
+
 .p-0 {
   padding: 0;
 }
@@ -32,7 +36,7 @@ body .breadcrumb {
 body .breadcrumb li {
   display: inline;
   margin-right: 10px;
-  font-size: 18px;
+  font-size: 22px;
 }
 body .breadcrumb li:before {
   padding: 8px;
@@ -48,7 +52,7 @@ body .breadcrumb li a:hover {
 }
 body .page-top {
   background-image: url(../img/solar-module.jpg);
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -65,14 +69,13 @@ body .page-top .page-heading {
   letter-spacing: 5px;
   margin-top: 3rem;
 }
-body .content {
-  font-size: 20px;
-  margin: 40px 0;
+body .content, body .content-bottom {
+  font-size: 22px;
 }
 body .upper-row {
   background: #efefef;
   padding: 60px 200px;
-  margin: 80px 0;
+  margin-bottom: 60px;
 }
 body .upper-row img {
   border-radius: 10px;
@@ -85,6 +88,42 @@ body .bottom-row img {
   width: 300px;
 }
 
+@media screen and (max-width: 1600px) {
+  .upper-row {
+    padding: 40px 100px !important;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .upper-row {
+    padding: 40px 50px !important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .content {
+    margin: 0 0 40px 0 !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content, .content-bottom {
+    font-size: 18px !important;
+  }
+
+  .upper-row img {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content, .content-bottom {
+    font-size: 16px !important;
+  }
+
+  .upper-row {
+    margin-bottom: 30px !important;
+  }
+  .upper-row img {
+    width: 250px;
+  }
+}
 .container-fluid {
   background: #efefef;
   padding: 40px 0;
@@ -513,13 +552,28 @@ body .eko-bar .sun-img img {
     height: 90px;
   }
 }
+@media screen and (max-width: 767px) {
+  .navbar-nav a {
+    height: 100% !important;
+    font-size: 16px !important;
+  }
+
+  .navbar-brand img {
+    max-height: 60px !important;
+    width: 60px !important;
+  }
+
+  .sticky {
+    display: none;
+  }
+}
 @media screen and (max-width: 500px) {
   .navbar-brand {
     margin-left: 1rem !important;
   }
 }
 .offer-include h1 {
-  font-size: 48px !important;
+  font-size: 48px;
 }
 
 .offer-content {
@@ -533,7 +587,7 @@ body .eko-bar .sun-img img {
 .offer-content:hover .offer-heading {
   font-size: 30px;
   font-weight: bold;
-  transition: 0.1s ease;
+  transition: 0.3s ease;
 }
 .offer-content:hover .offer-image img {
   box-shadow: 2px 2px 50px grey;
@@ -553,8 +607,241 @@ body .eko-bar .sun-img img {
 }
 .offer-content .offer-image img {
   width: 100%;
-  max-height: 240px;
+  height: 240px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1350px) {
+  .offer-content h3 {
+    font-size: 28px;
+  }
+
+  .offer-content:hover .offer-heading {
+    font-size: 29px !important;
+  }
+
+  .offer-content .offer-heading {
+    padding: 0 2rem;
+  }
+
+  .offer-include h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .offer-content .offer-heading {
+    padding: 3rem !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .offer-content h3 {
+    font-size: 22px;
+  }
+
+  .offer-content:hover .offer-heading {
+    font-size: 23px !important;
+  }
+
+  .offer-include h1 {
+    font-size: 36px;
+  }
+
+  .offer-image img {
+    height: 180px !important;
+  }
+
+  .offer-content .offer-heading {
+    padding: 2.4rem 0 !important;
+  }
+}
+.dotation-begin {
+  text-align: left;
+  margin-top: -60px;
+}
+.dotation-begin .dotation-heading h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+.dotation-begin .dota-img {
+  z-index: -1;
+}
+.dotation-begin .dota-img img {
+  width: 300px;
+  height: 225px;
+  margin-left: 20px;
+}
+
+.dotat-content {
+  margin: 1.6rem 0 !important;
+}
+.dotat-content p {
+  font-size: 28px;
+}
+
+.second-row {
+  height: 500px;
+  text-align: right;
+}
+.second-row .absolute-img {
+  position: relative;
+  z-index: -99;
+  top: -2%;
+}
+.second-row .absolute-img img {
+  height: 500px;
+  width: 500px;
+}
+.second-row h3 {
+  font-size: 27px;
+}
+
+.contact-bar {
+  background-image: url(../img/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding: 0;
+  opacity: 0.9;
+}
+.contact-bar h1 {
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-shadow: 2px 1px 9px white;
+}
+.contact-bar .btn-info {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1600px) {
+  .second-row .absolute-img {
+    left: -12%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .dotation-heading h1 {
+    font-size: 80px !important;
+  }
+
+  .dota-img img {
+    width: 300px;
+    height: 225px;
+    margin-left: 100px !important;
+  }
+
+  .dotat-content p {
+    font-size: 24px;
+  }
+
+  .second-row {
+    height: 400px;
+  }
+  .second-row .absolute-img {
+    left: -15%;
+  }
+  .second-row .absolute-img img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .second-caption h3 {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .second-row {
+    margin-right: -90px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .dotation-heading h1 {
+    font-size: 65px !important;
+  }
+
+  .dotat-content p {
+    font-size: 20px;
+  }
+
+  .second-row {
+    height: auto;
+  }
+
+  .contact-bar h1 {
+    font-size: 40px;
+  }
+
+  .second-row {
+    margin: auto !important;
+  }
+  .second-row .absolute-img {
+    margin-top: -100px;
+    left: -30%;
+  }
+  .second-row .second-caption {
+    padding: 1.4rem 0;
+    margin-top: -50px;
+  }
+  .second-row .second-caption h3 {
+    font-size: 22px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .dotation-heading h1 {
+    font-size: 50px !important;
+  }
+
+  .dotat-content p {
+    font-size: 18px;
+  }
+
+  .contact-bar h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+
+  .contact-bar .btn-info {
+    font-size: 18px !important;
+  }
+
+  .second-row .second-caption h3 {
+    font-size: 20px !important;
+    text-align: center;
+  }
+}
+.mapouter {
+  margin: 3rem auto !important;
+}
+
+.contact-upper p {
+  margin: 1.6rem 0;
+}
+
+.contact-icons {
+  margin: 2rem 0;
+}
+.contact-icons span {
+  display: inline-flex;
+}
+.contact-icons i {
+  margin-right: 20px;
+}
+.contact-icons h5 {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.contact-icons p {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.map-heading {
+  padding-top: 2rem;
+}
+.map-heading h2 {
+  font-size: 48px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
