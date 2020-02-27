@@ -58,6 +58,7 @@ body {
             background-position: top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
             height: 350px;                           
             padding: 3rem 0;
             h2, h3 {
@@ -65,10 +66,10 @@ body {
                 font-weight: bold;
             }
             h2 {
-                font-size: 70px;
+                font-size: 60px;
             }     
             h3 {
-                font-size: 52px;
+                font-size: 38px;
             }
             .btn {
                 margin-top: 20px;

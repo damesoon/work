@@ -40,10 +40,11 @@
 }
 
 .contact-bar {
-  background-image: url(../img/contact.jpg);
-  background-position: center;
+  background-image: url(../img/telephone-586266_1920.jpg);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 300px;
   padding: 0;
   opacity: 0.9;

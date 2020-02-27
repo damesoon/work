@@ -36,7 +36,7 @@ body .breadcrumb {
 body .breadcrumb li {
   display: inline;
   margin-right: 10px;
-  font-size: 22px;
+  font-size: 20px;
 }
 body .breadcrumb li:before {
   padding: 8px;
@@ -52,7 +52,7 @@ body .breadcrumb li a:hover {
 }
 body .page-top {
   background-image: url(../img/solar-module.jpg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -83,6 +83,9 @@ body .upper-row img {
 body .bottom-row {
   margin-bottom: 40px;
 }
+body .bottom-row .content-bottom {
+  margin-bottom: 2rem;
+}
 body .bottom-row img {
   height: 300px;
   width: 300px;
@@ -111,6 +114,10 @@ body .bottom-row img {
   .upper-row img {
     width: 400px;
   }
+
+  .breadcrumb li {
+    font-size: 18px !important;
+  }
 }
 @media screen and (max-width: 500px) {
   .content, .content-bottom {
@@ -122,6 +129,10 @@ body .bottom-row img {
   }
   .upper-row img {
     width: 250px;
+  }
+
+  .page-top .page-heading {
+    font-size: 48px !important;
   }
 }
 .container-fluid {
@@ -237,6 +248,7 @@ body .more .more-info {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 350px;
   padding: 3rem 0;
 }
@@ -245,10 +257,10 @@ body .more .more-info h2, body .more .more-info h3 {
   font-weight: bold;
 }
 body .more .more-info h2 {
-  font-size: 70px;
+  font-size: 60px;
 }
 body .more .more-info h3 {
-  font-size: 52px;
+  font-size: 38px;
 }
 body .more .more-info .btn {
   margin-top: 20px;
@@ -541,7 +553,7 @@ body .eko-bar .sun-img img {
   }
 
   .navbar-toggler {
-    margin: 0 3rem;
+    margin: 0 2rem;
   }
 
   .nav-link {
@@ -696,10 +708,11 @@ body .eko-bar .sun-img img {
 }
 
 .contact-bar {
-  background-image: url(../img/contact.jpg);
-  background-position: center;
+  background-image: url(../img/telephone-586266_1920.jpg);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 300px;
   padding: 0;
   opacity: 0.9;
@@ -811,11 +824,17 @@ body .eko-bar .sun-img img {
   }
 }
 .mapouter {
-  margin: 3rem auto !important;
+  margin: 1rem auto 3rem auto !important;
+}
+
+.contact-container {
+  background: #fff;
+  padding: 40px 20rem;
 }
 
 .contact-upper p {
   margin: 1.6rem 0;
+  font-size: 20px;
 }
 
 .contact-icons {
@@ -842,6 +861,70 @@ body .eko-bar .sun-img img {
 .map-heading h2 {
   font-size: 48px;
   font-weight: bold;
+}
+
+.border {
+  border-left: 6px solid black;
+  height: 80px;
+}
+
+@media screen and (max-width: 1600px) {
+  .contact-container {
+    padding: 40px 8rem;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .contact-icons p {
+    font-size: 20px;
+  }
+
+  .border {
+    display: none;
+  }
+
+  .contact-container {
+    padding: 0 16rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  iframe {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .contact-container {
+    padding: 0 10rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact-container {
+    padding: 0 2rem !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-icons p {
+    font-size: 18px;
+  }
+  .contact-icons h5 {
+    font-size: 18px;
+  }
+  .contact-icons span {
+    display: inline-block;
+  }
+  .contact-icons .fix {
+    margin-bottom: 1rem;
+  }
+
+  .contact-upper p {
+    font-size: 18px;
+  }
+  .contact-upper h1 {
+    font-size: 36px;
+  }
+
+  .map-heading h2 {
+    font-size: 36px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
