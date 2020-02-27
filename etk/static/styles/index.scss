@@ -9,6 +9,7 @@ body {
             top: 20%;
             left: 10%;
             text-align: left;
+            animation: font 2s;
             h3 {
                 background: rgba($color: $etk-green, $alpha: .7);
                 padding: 20px;
@@ -18,6 +19,11 @@ body {
                 font-size: 38px;
                 font-family: 'Roboto', sans-serif;
             }
+        }
+    }
+    @keyframes font {
+        60% {
+            letter-spacing: 3px;
         }
     }
 
@@ -50,6 +56,7 @@ body {
             text-align: center;
         }
     }
+
     .more {
         padding: 0;
         margin-top: 4rem;
