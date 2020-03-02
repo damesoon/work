@@ -550,7 +550,7 @@ body .eko-bar .sun-img img {
 }
 
 .social a {
-  color: #fff;
+  color: #fff !important;
 }
 .social a:hover {
   color: #d1d1d1 !important;
