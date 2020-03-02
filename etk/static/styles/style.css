@@ -512,6 +512,9 @@ body .eko-bar .sun-img img {
   color: #fff !important;
   transition: 0.2s ease;
 }
+.navbar .sticky-brand {
+  display: none !important;
+}
 
 .sticky {
   background: #363636 !important;
@@ -539,17 +542,26 @@ body .eko-bar .sun-img img {
   color: #968c00 !important;
   transition: 0.2s ease;
 }
-.sticky .social a {
+.sticky .sticky-brand {
+  display: block !important;
+}
+.sticky .navbar-brand {
+  display: none;
+}
+
+.social a {
   color: #fff;
 }
-.sticky .social a:hover {
+.social a:hover {
   color: #d1d1d1 !important;
 }
-.sticky .navbar-brand img {
+
+.navbar-brand img {
   max-height: 75px !important;
   width: 75px !important;
 }
-.sticky .navbar-toggler {
+
+.navbar-toggler {
   background-color: white;
 }
 

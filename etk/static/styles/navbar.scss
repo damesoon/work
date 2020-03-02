@@ -45,6 +45,9 @@
             }
         }
     }
+    .sticky-brand {
+        display: none !important;
+    }
 }
 .sticky {
     background: rgb(54, 54, 54) !important;
@@ -71,6 +74,14 @@
             }
         }
     }
+    .sticky-brand {
+        display: block !important;
+    }
+    .navbar-brand {
+        display: none;
+    }
+}
+
     .social {
         a {
             color: #fff;
@@ -88,7 +99,7 @@
     .navbar-toggler {
         background-color: white;
     }
-}
+
 @media screen and (max-width: 991px) {
     .social {
         display: none !important;
